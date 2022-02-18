@@ -17,11 +17,11 @@ def check_number():
             phone = "38" + phone
         elif phone == "" or phone == "":
             print(
-                Fore.RED + Style.BRIGHT + "Номер введён некорректно!" + Style.RESET_ALL
+                Fore.RED + Style.BRIGHT + "Номер введён не правильно" + Style.RESET_ALL
             )
             exit()
     except Exception:
-        print(Fore.RED + Style.BRIGHT + "Номер введён некорректно!" + Style.RESET_ALL)
+        print(Fore.RED + Style.BRIGHT + "Номер введён не правильно" + Style.RESET_ALL)
         exit()
 
 
@@ -76,8 +76,8 @@ def start():
     print(
         Fore.BLUE
         + Style.BRIGHT
-        + f"\nНомер: {phone}\nЦиклы: {count}"
-        + "\nСпамер запущен.\nЕсли Вы хотите остановить - нажмите Ctrl+Z."
+        + f"\nD=Номер: {phone}\nЦиклы: {count}"
+        + "\nsmsGOD запущен.\nдля остановки нажми Ctrl+Z."
         + Style.RESET_ALL
     )
     global iteration
