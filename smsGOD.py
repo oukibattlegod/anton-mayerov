@@ -711,11 +711,11 @@ def start():
 
 
 def menu():
-    print(Fore.CYAN + Style.BRIGHT + "t.me/soft_industry Введите номер:" + Style.RESET_ALL)
+    print(Fore.CYAN + Style.BRIGHT + "Введите номер:" + Style.RESET_ALL)
     global phone
     phone = input(cursor + Style.RESET_ALL)
     check_number()
-    print(Fore.CYAN + Style.BRIGHT + "t.me/soft_industry Введите количество циклов:" + Style.RESET_ALL)
+    print(Fore.CYAN + Style.BRIGHT + "Введите количество циклов:" + Style.RESET_ALL)
     global count
     count = input(cursor + Style.RESET_ALL)
     count = int(count)
@@ -727,7 +727,7 @@ def menu():
     print(
         Fore.YELLOW
         + Style.BRIGHT
-        + f"\nГотово.\nТелефон: {phone}\nКол-во пройденных циклов: {iteration} Источник: t.me/soft_industry"
+        + f"\nГотово.\nТелефон: {phone}\nКол-во пройденных циклов: {iteration}"
         + Style.RESET_ALL
     )
 
